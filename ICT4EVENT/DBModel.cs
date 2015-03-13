@@ -43,4 +43,250 @@ namespace ICT4EVENT
             throw new NotImplementedException();
         }
     }
+
+    class UserModel : DBModel, IDataModelUpdate
+    {
+        public UserModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RegistrationModel : DBModel, IDataModelUpdate
+    {
+        public RegistrationModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RFIDLogModel : DBModel, IDataModelUpdate
+    {
+        public RFIDLogModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RentableObjectModel : DBModel, IDataModelUpdate
+    {
+        public RentableObjectModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PostModel : DBModel, IDataModelUpdate
+    {
+        public PostModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PlaceModel : DBModel, IDataModelUpdate
+    {
+        public PlaceModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class LikeModel : DBModel, IDataModelUpdate
+    {
+        public LikeModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PostReportModel : DBModel, IDataModelUpdate
+    {
+        public PostReportModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PaymentModel : DBModel, IDataModelUpdate
+    {
+        public PaymentModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    
+
 }
