@@ -73,6 +73,10 @@ namespace ICT4EVENT
 
     class RegistrationModel : DBModel, IDataModelUpdate
     {
+        public RegistrationModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -96,6 +100,10 @@ namespace ICT4EVENT
 
     class RFIDLogModel : DBModel, IDataModelUpdate
     {
+        public RFIDLogModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -119,6 +127,10 @@ namespace ICT4EVENT
 
     class RentableObjectModel : DBModel, IDataModelUpdate
     {
+        public RentableObjectModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -142,6 +154,10 @@ namespace ICT4EVENT
 
     class PostModel : DBModel, IDataModelUpdate
     {
+        public PostModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -165,6 +181,10 @@ namespace ICT4EVENT
 
     class PlaceModel : DBModel, IDataModelUpdate
     {
+        public PlaceModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -188,6 +208,10 @@ namespace ICT4EVENT
 
     class LikeModel : DBModel, IDataModelUpdate
     {
+        public LikeModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -211,6 +235,10 @@ namespace ICT4EVENT
 
     class PostReportModel : DBModel, IDataModelUpdate
     {
+        public PostReportModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
@@ -234,6 +262,10 @@ namespace ICT4EVENT
 
     class PaymentModel : DBModel, IDataModelUpdate
     {
+        public PaymentModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
         public bool Create()
         {
             throw new NotImplementedException();
