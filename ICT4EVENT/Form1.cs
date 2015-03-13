@@ -16,5 +16,12 @@ namespace ICT4EVENT
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            DBManager m = new DBManager();
+            Console.Write("ho");
+        }
     }
 }
