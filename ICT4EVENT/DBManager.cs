@@ -19,9 +19,13 @@ namespace ICT4EVENT
             dbConnection.Open();
         }
 
-        private void QueryDB(string query)
+        private MySqlDataReader QueryDB(string query)
         {
-            throw new NotImplementedException();
+            MySqlCommand command = new MySqlCommand(query, dbConnection);
+
+            MySqlDataReader mySqlDataReader = command.ExecuteReader();
+
+            return mySqlDataReader;
         }
     }
 }
