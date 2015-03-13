@@ -43,4 +43,218 @@ namespace ICT4EVENT
             throw new NotImplementedException();
         }
     }
+
+    class UserModel : DBModel, IDataModelUpdate
+    {
+        public UserModel(DBManager dbManager) :base (dbManager)
+        {
+
+        }
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RegistrationModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RFIDLogModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class RentableObjectModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PostModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PlaceModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class LikeModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PostReportModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    class PaymentModel : DBModel, IDataModelUpdate
+    {
+        public bool Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Read()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Destroy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    
+
 }
